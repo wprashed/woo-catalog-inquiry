@@ -3,10 +3,10 @@
 /**
  * @link              https://itech-softsolutions.com
  * @since             1.0.0
- * @package           Woo Catalog & Inquiry
+ * @package           Woo Catalog & Enquiry
  *
  * @wordpress-plugin
- * Plugin Name:       Woo Catalog & Inquiry
+ * Plugin Name:       Woo Catalog & Enquiry
  * Plugin URI:        
  * Description:       This plugin will hide add to cart button and add equiry button with form
  * Version:           1.0.0

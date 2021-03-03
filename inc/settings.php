@@ -25,7 +25,7 @@ class WC_settings_tab_wci {
      * @return array $settings_tabs Array of WooCommerce setting tabs & their labels, including the Subscription tab.
      */
     public static function add_settings_tab( $settings_tabs ) {
-        $settings_tabs['settings_tab_wci'] = __( 'Woo Catalog & Inquiry', 'wci' );
+        $settings_tabs['settings_tab_wci'] = __( 'Woo Catalog & Enquiry', 'wci' );
         return $settings_tabs;
     }
 
@@ -61,7 +61,7 @@ class WC_settings_tab_wci {
 
         $settings = array(
             'section_title' => array(
-                'name'     => __( 'Woo Catalog & Inquiry', 'wci' ),
+                'name'     => __( 'Woo Catalog & Enquiry', 'wci' ),
                 'type'     => 'title',
                 'desc'     => '',
                 'id'       => 'wc_settings_tab_wci_section_title'
@@ -90,8 +90,8 @@ class WC_settings_tab_wci {
                 'id'   => 'wc_settings_tab_wci_form_hide_price_in_single_page',
                 'default'   => 'no',
             ),
-            'show_inquiry_button' => array(
-                'name' => __( 'Show Inquiry Button', 'wci' ),
+            'show_Enquiry_button' => array(
+                'name' => __( 'Show Enquiry Button', 'wci' ),
                 'type' => 'checkbox',
                 'id'   => 'wc_settings_tab_wci_form_show_inquiry_button',
                 'default'   => 'no',
@@ -99,9 +99,9 @@ class WC_settings_tab_wci {
             'button_label' => array(
                 'name' => __( 'Button Label', 'wci' ),
                 'type' => 'text',
-                'desc' => __( 'Please Enter Inquiry Button Label', 'wci' ),
+                'desc' => __( 'Please Enter Enquiry Button Label', 'wci' ),
                 'id'   => 'wc_settings_tab_wci_form_label',
-                'default'   => 'Product Inquiry'
+                'default'   => 'Product Enquiry'
             ),
             'shortcode' => array(
                 'name' => __( 'Contact Form Shortcode', 'wci' ),

@@ -5,7 +5,7 @@
 *
 */
 
-// Add Inquiry Button
+// Add inquiry Button
 
 function wci_display_inquiry_button() {
 
@@ -24,7 +24,7 @@ function wci_display_inquiry_button() {
 
 add_action( 'woocommerce_single_product_summary', 'wci_display_inquiry_button', 30 );
  
-// Add Inquiry Form
+// Add inquiry Form
 
 function wci_display_inquiry_form() {
 

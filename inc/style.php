@@ -14,9 +14,9 @@ function wci_custom_css(){
     ?>
 	<style>
 
-	/* Inquiry Button Style */
+	/* Enquiry Button Style */
 
-	#wci_inquiry_button{
+	#wci_Enquiry_button{
 		margin: <?php echo esc_attr($margin); ?> !important;
 		display: inline-block !important;
 	    font-weight: 500 !important;
@@ -38,7 +38,7 @@ function wci_custom_css(){
 	    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
 	}
 
-	/* Inquiry Form Style */
+	/* Enquiry Form Style */
 	
 	.wpcf7-form-control-wrap input{
 	    display: block !important;
@@ -60,7 +60,7 @@ function wci_custom_css(){
 		height: 250px !important;
 	}
 
-	/* Inquiry Form Button Style */
+	/* Enquiry Form Button Style */
 	
 	.wpcf7-submit{
 		margin: <?php echo esc_attr($margin); ?> !important;
