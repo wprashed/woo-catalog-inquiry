@@ -16,7 +16,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 #: inc/settings.php:28 inc/settings.php:64
-msgid "Woo Catalog & Enquiry"
+msgid "Catalog & Enquiry"
 msgstr ""
 
 #: inc/settings.php:70

@@ -1,22 +1,22 @@
 <?php
 
-function wci_custom_css(){
+function catenq_custom_css(){
 	
 	// Get CSS Options From Style Setting 
 
-	$margin 	= get_option( 'wc_settings_tab_wci_button_margin' );
-	$padding 	= get_option( 'wc_settings_tab_wci_button_padding' );
-	$background = get_option( 'wc_settings_tab_wci_button_background' );
-	$border 	= get_option( 'wc_settings_tab_wci_button_border' );
-	$color 		= get_option( 'wc_settings_tab_wci_button_color' );
-	$custom 	= get_option( 'wc_settings_tab_wci_custom_css' );
+	$margin 	= get_option( 'wc_settings_tab_catenq_button_margin' );
+	$padding 	= get_option( 'wc_settings_tab_catenq_button_padding' );
+	$background = get_option( 'wc_settings_tab_catenq_button_background' );
+	$border 	= get_option( 'wc_settings_tab_catenq_button_border' );
+	$color 		= get_option( 'wc_settings_tab_catenq_button_color' );
+	$custom 	= get_option( 'wc_settings_tab_catenq_custom_css' );
 
     ?>
 	<style>
 
 	/* Enquiry Button Style */
 
-	#wci_Enquiry_button{
+	#catenq_Enquiry_button{
 		margin: <?php echo esc_attr($margin); ?> !important;
 		display: inline-block !important;
 	    font-weight: 500 !important;
@@ -90,5 +90,5 @@ function wci_custom_css(){
 	</style>
     <?php
 }
-add_action('wp_head','wci_custom_css');
+add_action('wp_head','catenq_custom_css');
 ?>
